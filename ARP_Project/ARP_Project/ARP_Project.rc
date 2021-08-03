@@ -1,0 +1,180 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// ÇÑ±¹¾î(´ëÇÑ¹Î±¹) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDG_Dlg1 DIALOGEX 0, 0, 285, 276
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_OVERLAPPEDWINDOW
+CAPTION "ARP_Project "
+FONT 9, "@¸¼Àº °íµñ", 400, 0, 0x81
+BEGIN
+    LISTBOX         IDC_LIST1,16,17,70,14,LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    LTEXT           "IP Address",IDC_STATIC,16,7,69,10
+    LTEXT           "Mac Address",IDC_STATIC,92,7,55,8
+    GROUPBOX        "Cach Table",IDC_STATIC,7,162,271,106
+    LISTBOX         IDC_LIST2,91,17,75,14,LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    LTEXT           "State",IDC_STATIC,17,175,20,9
+    LISTBOX         IDC_LIST4,15,185,40,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    LTEXT           "Queue",IDC_STATIC,54,175,24,8
+    LISTBOX         IDC_LIST59,54,185,28,12,LBS_NOINTEGRALHEIGHT,WS_EX_RIGHT
+    LTEXT           "Attempt",IDC_STATIC,82,175,25,8
+    LISTBOX         IDC_LIST69,81,185,32,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LTEXT           "Time-out",IDC_STATIC,112,175,28,8
+    LISTBOX         IDC_LIST79,112,185,29,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LTEXT           "IP Address",IDC_STATIC,145,175,44,8
+    LISTBOX         IDC_LIST89,140,185,57,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LTEXT           "Mac  Address",IDC_STATIC,197,175,63,8
+    LISTBOX         IDC_LIST99,196,185,75,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LTEXT           "Send IP",IDC_STATIC,175,7,70,9
+    PUSHBUTTON      "Send",IDC_BUTTON1,228,34,43,14
+    LISTBOX         IDC_LIST10,15,200,40,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    LISTBOX         IDC_LIST11,54,200,28,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST12,81,200,32,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST13,112,200,29,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST14,140,200,57,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST15,196,200,74,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST16,15,216,40,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    LISTBOX         IDC_LIST17,54,216,28,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST18,81,216,32,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST19,112,216,29,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST20,140,216,57,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST21,196,216,74,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST22,15,232,40,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    LISTBOX         IDC_LIST23,54,232,28,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST24,81,232,32,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST25,112,232,29,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST26,140,232,57,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST27,196,232,74,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST28,15,248,40,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    LISTBOX         IDC_LIST29,54,248,28,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST30,81,248,32,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST31,112,248,29,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST32,140,248,57,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    LISTBOX         IDC_LIST33,196,248,74,12,LBS_NOINTEGRALHEIGHT | WS_TABSTOP,WS_EX_RIGHT
+    CONTROL         "",IDC_IPADDRESS1,"SysIPAddress32",WS_TABSTOP,171,17,100,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDG_Dlg1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 278
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DEFAULT             BITMAP                  "BMP\\default.bmp"
+IDB_COM1_REQ1           BITMAP                  "BMP\\com1_req1.bmp"
+IDB_COM1_REQ2           BITMAP                  "BMP\\com1_req2.bmp"
+IDB_COM1_REQ3           BITMAP                  "BMP\\com1_req3.bmp"
+IDB_COM1_REQ4           BITMAP                  "BMP\\com1_req4.bmp"
+IDB_COM1_REQ5           BITMAP                  "BMP\\com1_req5.bmp"
+IDB_COM1_REQ6           BITMAP                  "BMP\\com1_req6.bmp"
+IDB_COM2_REQ1           BITMAP                  "BMP\\com2_req1.bmp"
+IDB_COM2_REQ2           BITMAP                  "BMP\\com2_req2.bmp"
+IDB_COM2_REQ3           BITMAP                  "BMP\\com2_req3.bmp"
+IDB_COM2_REQ4           BITMAP                  "BMP\\com2_req4.bmp"
+IDB_COM2_REQ5           BITMAP                  "BMP\\com2_req5.bmp"
+IDB_SEND_1              BITMAP                  "BMP\\send_1.bmp"
+IDB_SEND_2              BITMAP                  "BMP\\send_2.bmp"
+IDB_SEND_3              BITMAP                  "BMP\\send_3.bmp"
+IDB_SEND_4              BITMAP                  "BMP\\send_4.bmp"
+IDB_SEND_5              BITMAP                  "BMP\\send_5.bmp"
+IDB_SEND_6              BITMAP                  "BMP\\send_6.bmp"
+IDB_SEND_7              BITMAP                  "BMP\\send_7.bmp"
+IDB_SEND_8              BITMAP                  "BMP\\send_8.bmp"
+IDB_COM2_REQ6           BITMAP                  "BMP\\com2_req6.bmp"
+IDB_COM3_REQ1           BITMAP                  "BMP\\com3_req1.bmp"
+IDB_COM3_REQ2           BITMAP                  "BMP\\com3_req2.bmp"
+IDB_COM3_REQ3           BITMAP                  "BMP\\com3_req3.bmp"
+IDB_COM3_REQ4           BITMAP                  "BMP\\com3_req4.bmp"
+IDB_COM3_REQ5           BITMAP                  "BMP\\com3_req5.bmp"
+IDB_COM3_REQ6           BITMAP                  "BMP\\com3_req6.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "C:\\Users\\L\\Documents\\Visual Studio 2010\\Projects\\ARP_Project\\ARP_Project\\BMP\\icon1.ico"
+#endif    // ÇÑ±¹¾î(´ëÇÑ¹Î±¹) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
